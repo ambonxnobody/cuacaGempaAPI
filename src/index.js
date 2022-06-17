@@ -20,8 +20,8 @@ app.use('/quake', quakeRoute);
 
 app.get('/', (req, res) => {
   return res.status(200).send({
-    maintainer: 'Renova Muhamad Reza',
-    source: 'https://github.com/renomureza/cuaca-gempa-rest-api',
+    maintainer: 'Hafid Dian Nurfaujan Ahat dibantu oleh Renova Muhamad Reza',
+    source: 'https://github.com/ambonxnobody/cuacaGempaAPI',
     endpoint: {
       quake: `${BASE_URL}/quake`,
       weather: {
@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
 });
 
 app.all('*', (req, res) => {
-  return res.status(404).send(responseCreator({ message: 'Not found' }));
+  return res.status(404).send(responseCreator({ message: 'Tidak ditemukan' }));
 });
 
 app.listen(PORT, () => {
