@@ -6,7 +6,7 @@ Sumber: [Data Terbuka BMKG](https://data.bmkg.go.id/).
 
 ## DEMO
 
-[https://cuaca-gempa-rest-api.vercel.app](https://cuaca-gempa-rest-api.vercel.app)
+[https://cuaca-gempa-api.vercel.app](https://cuaca-gempa-api.vercel.app)
 
 ## Command
 
